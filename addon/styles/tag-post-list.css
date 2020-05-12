@@ -1,8 +1,3 @@
 .tag-post-list .tag-post-list-title {
   color: var(--color-gray-600);
 }
-
-.tag-post-list .tag-post-list-link {
-  background: none;
-  text-decoration: none;
-}

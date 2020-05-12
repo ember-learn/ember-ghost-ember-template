@@ -1,4 +1,4 @@
-<div class="tag-post-list">
+<div class="tag-post-list bg-none">
   <h3
     id={{this.titleId}}
     class="text-lg tag-post-list-title"
@@ -15,7 +15,6 @@
     {{#each this.topPosts key="id" as |post|}}
       <li class="my-1">
         <LinkTo
-          class="tag-post-list-link"
           data-test-post-link
           @route="post"
           @model={{post.id}}
@@ -28,7 +27,6 @@
 
   <div class="mt-1 ml-1">
     <LinkTo
-      class="tag-post-list-link"
       data-test-more-posts
       @route="tag"
       @model={{@tag.id}}
